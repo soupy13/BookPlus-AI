@@ -19,21 +19,6 @@ BookPlus is a modern recommendation engine that moves beyond simple keyword matc
 | :--- | :--- |
 | **Language** | Python 3.9+ |
 | **AI/ML Frameworks** | LangChain, Hugging Face Transformers |
-| **Embeddings** | OpenAI API |
 | **Vector Database** | ChromaDB |
 | **Frontend/UI** | Gradio |
 | **Data Processing** | Pandas, NumPy |
-
----
-
-## 📂 Project Structure
-
-```text
-├── data/                   # Dataset containing ~7,000 book records
-├── notebooks/              # Exploratory Data Analysis & Embedding generation
-├── src/
-│   ├── recommender.py      # Core logic for semantic search & filtering
-│   ├── app.py              # Gradio/Web interface implementation
-│   └── database_builder.py # Script to populate the Vector DB
-├── requirements.txt        # Project dependencies
-└── .env                    # Environment variables (API Keys)
